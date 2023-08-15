@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SIMULADOR STOCK</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1 style="color: orange;"> ¡Bienvenido a El Ganador del Valle! </h1>
+  <p style="color: rgb(255, 94, 0)">Seleccione la línea de producto deseada:</p>
+
+  <select id="lineaSelect">
+    <option value="ENERGIA">Energía</option>
+    <option value="LECHE">Leche</option>
+    <option value="PROTEINA">Proteína</option>
+    <option value="PORCINOS">Porcinos</option>
+  </select>
+  <button style="background-color: lightblue; border-color: blue; border-radius: 60%; padding: 10px 20px 10px 20px; " id="verificarButton"> <strong>Verificar Stock</strong></button>
+  <button style="background-color: lightblue; border-color: blue; border-radius: 60%; padding: 10px 20px;" id="agregarProductoButton"> <strong>Agregar Producto</strong></button>
+  <p id="stockMessage"></p>
+  <p id="totalMessage"></p>
+</body>
+</html>
